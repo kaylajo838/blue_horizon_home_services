@@ -1,0 +1,94 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.logo {
+    height: 151.75px;
+    width: 243.75px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 151.75px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Main Section Styling */
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #B3DEFD;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Carousel Styling Section */
+.carousel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.temp-landscape {
+    height: 216px;
+    width: 324px;
+}
+
+.temp-home {
+    height: 178px;
+    width: 268px;
+}
+
+.temp-deck {
+    height: 250px;
+    width: 375px;
+}
+
+/* Contact Section Styling */
+.contact {
+    background-color: #B3DEFD;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Footer Styling */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #B3DEFD;
+}
+
+.footer>a {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.fa-github {
+    color: black;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
