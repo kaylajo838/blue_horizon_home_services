@@ -77,6 +77,11 @@ body {
     font-weight: 550;
 }
 
+.links>a:nth-of-type(3) {
+    font-weight: 550;
+}
+
+
 
 
 
@@ -246,6 +251,10 @@ span {
 
     .links>a:nth-of-type(1) {
         font-size: 12px;
+        font-weight: 500;
+    }
+
+    .links>a:nth-of-type(3) {
         font-weight: 500;
     }
 
