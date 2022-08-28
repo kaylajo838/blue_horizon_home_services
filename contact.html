@@ -20,26 +20,31 @@
         <span>
             <img class="logo" src="./images/Blue Horizon Logo.png" alt="blue horizon logo">
         </span>
+        <!-- TEMPORARY -->
+        <hr>
         <nav class="links">
             <a href="./index.html">Home</a>
-            <a href="./portfolio.html">Portfolio</a>
             <a href="./contact.html" class="active">Contact</a>
+            <!-- TEMPORARY -->
+            <!-- <a href="./portfolio.html">Portfolio</a> -->
         </nav>
+        <!-- TEMPORARY -->
+        <hr>
     </header>
 
     <section class="form-container">
         <form>
             <section class="name-form">
                 <label for="first-name">*First Name:</label>
-                <input type="text" id="first-name" name="first-name">
+                <input type="text" id="first-name" name="first-name" required>
 
                 <label for="last-name" class="last-name">*Last Name:</label>
-                <input type="text" id="last-name" name="last-name">
+                <input type="text" id="last-name" name="last-name" required>
             </section>
             <br>
             <section class="email-phone">
                 <label for="email">*Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
 
                 <label for="phone" class="phone-number">Phone Number (Optional):</label>
                 <input type="tel" id="phone-number" name="phone">
@@ -47,9 +52,39 @@
             <br>
             <section class="description">
                 <label for="text-box">*Description of services needed/questions:</label>
-                <input type="text" id="text-box" name="text-box">
+                <br>
+                <textarea name="text-box" id="text-box" cols="30" rows="10" maxlength="200" required></textarea>
+                <!-- <input type="text" id="text-box" name="text-box" maxlength="200"> -->
+                <br>
+                <span>200 characters left</span>
+            </section>
+            <br>
+            <section class="submit-button">
+                <input type="submit" id="submit-btn" name="submit-btn">
             </section>
         </form>
+    </section>
+
+
+
+    <section class="license-info">
+        <h4>License Information</h4>
+        <hr>
+        <p>
+            Blue Horizon Home Services, LLC
+            <br>
+            Construction License # BLUEHHL790DA
+            <br>
+            Home Inspection License # 21032176
+            <br>
+            <br>
+            <span>Call or email today for quotes or questions:</span>
+            <br>
+            <br>
+            (509) 599-1337
+            <br>
+            BlueHorizonLLC@protonmail.com
+        </p>
     </section>
 
     <footer class=" footer">
