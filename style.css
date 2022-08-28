@@ -78,6 +78,10 @@ body {
     font-weight: 550;
 }
 
+.links>a:nth-of-type(3) {
+    font-weight: 550;
+}
+
 
 
 .links>a {
@@ -270,6 +274,10 @@ ul {
         font-weight: 500;
     }
 
+    .links>a:nth-of-type(3) {
+        font-weight: 500;
+    }
+
     .links>a:hover {
         font-weight: 600;
         font-size: 15px;
@@ -349,10 +357,6 @@ ul {
         gap: 10px;
     }
 
-    .links>a:nth-of-type(2) {
-        font-weight: 500;
-    }
-
     .links>a:hover {
         font-weight: 600;
         font-size: 15px;
@@ -369,7 +373,6 @@ ul {
 
     .footer>a {
         padding-top: 9px;
-        ;
     }
 
     .fa-github {
