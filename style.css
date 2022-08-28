@@ -206,6 +206,7 @@ ul {
 .license-info>hr {
     width: 300px;
     margin: 0;
+    border: 1px solid black;
 }
 
 /* Footer Styling */
@@ -231,4 +232,149 @@ ul {
 
 .fa-github:hover {
     transform: rotate(360deg) scale(1.2);
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 906px) {
+    .carousel {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 750px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .main-description {
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-description>ul {
+        list-style: none;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .links {
+        font-size: 15px;
+    }
+
+    .links>a:nth-of-type(2) {
+        font-weight: 500;
+    }
+
+    .links>a:hover {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .links>.active {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .main-description>p {
+        font-size: 12px;
+    }
+
+    .main-description>ul {
+        font-size: 12px;
+    }
+
+    .main-description>p:nth-of-type(2) {
+        margin-top: 0;
+    }
+
+    .main-image-section>img {
+        height: 124.67px;
+        width: 187.33px;
+    }
+
+    .temp-landscape {
+        height: 124.67px;
+        width: 187.33px;
+    }
+
+    .temp-home {
+        height: 124.67px;
+        width: 187.33px;
+    }
+
+    .temp-deck {
+        height: 124.67px;
+        width: 187.33px;
+    }
+
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .contact-button {
+        height: 17px;
+    }
+
+    .license-info {
+        font-size: 12px;
+    }
+
+    .license-info>hr {
+        width: 200px;
+    }
+}
+
+@media (max-width: 300px) {
+    .logo {
+        height: 126.46px;
+        width: 203.13px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .links {
+        flex-direction: column;
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .links>a:nth-of-type(2) {
+        font-weight: 500;
+    }
+
+    .links>a:hover {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .links>.active {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    .footer>a {
+        padding-top: 9px;
+        ;
+    }
+
+    .fa-github {
+        color: black;
+        font-size: 12px;
+        transition: transform 0.3s ease-in-out;
+    }
 }
