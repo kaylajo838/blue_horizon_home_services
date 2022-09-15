@@ -151,24 +151,25 @@ ul {
     margin-bottom: 30px;
     padding: 20px 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.temp-landscape {
-    height: 187px;
-    width: 281px;
+.first-image {
+    height: 324px;
+    width: 432px;
 }
 
-.temp-home {
-    height: 187px;
-    width: 281px;
+.second-image {
+    height: 324px;
+    width: 432px;
 }
 
-.temp-deck {
-    height: 187px;
-    width: 281px;
+.third-image {
+    height: 324px;
+    width: 432px;
 }
 
 /* Contact Section Styling */
@@ -321,17 +322,17 @@ ul {
         width: 162px;
     }
 
-    .temp-landscape {
+    .first-image {
         height: 124.67px;
         width: 187.33px;
     }
 
-    .temp-home {
+    .second-image {
         height: 124.67px;
         width: 187.33px;
     }
 
-    .temp-deck {
+    .third-image {
         height: 124.67px;
         width: 187.33px;
     }
