@@ -121,10 +121,14 @@ body {
 }
 
 img {
-    height: 311.67px;
-    width: 468.33px;
+    height: 324px;
+    width: 432px;
 }
 
+.vertical-image {
+    height: 432px;
+    width: 324px;
+}
 
 
 /* Footer Styling */
@@ -187,8 +191,13 @@ img {
     }
 
     img {
-        height: 187px;
-        width: 281px;
+        height: 216px;
+        width: 288px;
+    }
+
+    .vertical-image {
+        height: 288px;
+        width: 216px;
     }
 
     @media (max-width: 300px) {
@@ -227,8 +236,13 @@ img {
         }
 
         img {
-            height: 143.85px;
-            width: 216.15px;
+            height: 144px;
+            width: 192px;
+        }
+
+        .vertical-image {
+            height: 192px;
+            width: 144px;
         }
 
         .footer {
