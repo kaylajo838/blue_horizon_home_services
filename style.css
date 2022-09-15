@@ -138,8 +138,11 @@ ul {
 }
 
 .main-image-section>img {
-    height: 187px;
-    width: 281px;
+    /* original dimensions */
+    /* height: 1440px;
+    width: 1080px; */
+    height: 360px;
+    width: 270px;
 }
 
 /* Carousel Styling Section */
@@ -314,8 +317,8 @@ ul {
     }
 
     .main-image-section>img {
-        height: 124.67px;
-        width: 187.33px;
+        height: 216px;
+        width: 162px;
     }
 
     .temp-landscape {
