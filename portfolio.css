@@ -45,8 +45,10 @@ body {
 }
 
 .logo {
-    height: 151.75px;
-    width: 243.75px;
+    /* height: 433px; */
+    height: 162.375px;
+    /* width: 975px; */
+    width: 365.625px;
     margin-top: 80px;
     margin-left: 20px;
 }
@@ -159,6 +161,13 @@ img {
 } */
 
 @media (max-width: 520px) {
+    .logo {
+        /* height: 433px; */
+        height: 129.9px;
+        /* width: 975px; */
+        width: 292.488px;
+    }
+
     .links {
         font-size: 15px;
     }
@@ -184,8 +193,10 @@ img {
 
     @media (max-width: 300px) {
         .logo {
-            height: 126.46px;
-            width: 203.13px;
+            /* height: 433px; */
+            height: 108.25px;
+            /* width: 975px; */
+            width: 243.74px;
             margin-top: 80px;
             margin-left: 20px;
         }
