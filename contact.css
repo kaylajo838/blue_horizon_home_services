@@ -46,11 +46,12 @@ body {
 
 .logo {
     /* height: 433px; */
-    height: 162.375px;
+    height: 308.5px;
     /* width: 975px; */
-    width: 365.625px;
-    margin-top: 80px;
-    margin-left: 20px;
+    width: 226.5px;
+    /* margin-top: 20px;
+   margin-left: 20px; */
+    padding-top: 170px;
 }
 
 /* Temporarily Commented Out While Links Are Hidden */
@@ -157,10 +158,11 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
-    margin-bottom: auto;
+    margin-top: 300px;
+    margin-bottom: 100px;
     padding: 20px;
     text-align: center;
+    height: 50em;
 }
 
 .license-info>hr {
@@ -202,9 +204,10 @@ span {
 @media (max-width: 520px) {
     .logo {
         /* height: 433px; */
-        height: 129.9px;
+        height: 205.67px;
         /* width: 975px; */
-        width: 292.488px;
+        width: 151px;
+        padding-top: 80px;
     }
 
     .links {
@@ -237,6 +240,7 @@ span {
 
     .license-info {
         font-size: 12px;
+        margin-top: 220px;
     }
 
     .license-info>hr {
@@ -247,11 +251,11 @@ span {
 @media (max-width: 300px) {
     .logo {
         /* height: 433px; */
-        height: 108.25px;
+        height: 137.11px;
         /* width: 975px; */
-        width: 243.74px;
-        margin-top: 80px;
-        margin-left: 20px;
+        width: 100.67px;
+        padding-top: 50px;
+        /* margin-left: 20px; */
     }
 
     .links {
@@ -281,6 +285,11 @@ span {
 
     h4 {
         font-size: 15px;
+    }
+
+    .license-info {
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
 
     .footer {
