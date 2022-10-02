@@ -46,11 +46,11 @@ body {
 
 .logo {
     /* height: 433px; */
-    height: 162.375px;
+    height: 308.5px;
     /* width: 975px; */
-    width: 365.625px;
-    margin-top: 80px;
-    margin-left: 20px;
+    width: 226.5px;
+    padding-top: 180px;
+    /* margin-left: 20px; */
 }
 
 /* Temporarily Commented Out While Links Are Hidden */
@@ -115,7 +115,7 @@ body {
     flex-basis: 33.333333%;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 250px;
     margin-bottom: 30px;
     gap: 20px;
 }
@@ -167,9 +167,10 @@ img {
 @media (max-width: 520px) {
     .logo {
         /* height: 433px; */
-        height: 129.9px;
+        height: 205.67px;
         /* width: 975px; */
-        width: 292.488px;
+        width: 151px;
+        padding-top: 0;
     }
 
     .links {
@@ -190,6 +191,10 @@ img {
         font-weight: 600;
     }
 
+    .portfolio-images {
+        margin-top: 110px;
+    }
+
     img {
         height: 216px;
         width: 288px;
@@ -203,11 +208,11 @@ img {
     @media (max-width: 300px) {
         .logo {
             /* height: 433px; */
-            height: 108.25px;
+            height: 137.11px;
             /* width: 975px; */
-            width: 243.74px;
-            margin-top: 80px;
-            margin-left: 20px;
+            width: 100.67px;
+            padding-top: 50px;
+            /* margin-left: 20px; */
         }
 
         .links {
