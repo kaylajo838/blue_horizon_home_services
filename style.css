@@ -48,11 +48,11 @@ body {
 
 .logo {
     /* height: 433px; */
-    height: 162.375px;
+    height: 308.5px;
     /* width: 975px; */
-    width: 365.625px;
-    margin-top: 20px;
-    margin-left: 20px;
+    width: 226.5px;
+    /* margin-top: 20px;
+    margin-left: 20px; */
 }
 
 /* Temporarily Commented Out While Links Are Hidden */
@@ -274,9 +274,10 @@ ul {
 @media (max-width: 520px) {
     .logo {
         /* height: 433px; */
-        height: 129.9px;
+        height: 205.67px;
         /* width: 975px; */
-        width: 292.488px;
+        width: 151px;
+        margin: 0;
     }
 
     .links {
@@ -359,11 +360,11 @@ ul {
 @media (max-width: 300px) {
     .logo {
         /* height: 433px; */
-        height: 108.25px;
+        height: 137.11px;
         /* width: 975px; */
-        width: 243.74px;
-        margin-top: 20px;
-        margin-left: 20px;
+        width: 100.67px;
+        /* margin-top: 20px;
+        margin-left: 20px; */
     }
 
     .links {
