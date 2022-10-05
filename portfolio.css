@@ -50,6 +50,8 @@ body {
     /* width: 975px; */
     width: 226.5px;
     padding-top: 180px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     /* margin-left: 20px; */
 }
 
@@ -170,7 +172,7 @@ img {
         height: 205.67px;
         /* width: 975px; */
         width: 151px;
-        padding-top: 0;
+        padding-top: 80px;
     }
 
     .links {
@@ -192,7 +194,7 @@ img {
     }
 
     .portfolio-images {
-        margin-top: 110px;
+        margin-top: 150px;
     }
 
     img {
@@ -204,64 +206,68 @@ img {
         height: 288px;
         width: 216px;
     }
+}
 
-    @media (max-width: 300px) {
-        .logo {
-            /* height: 433px; */
-            height: 137.11px;
-            /* width: 975px; */
-            width: 100.67px;
-            padding-top: 50px;
-            /* margin-left: 20px; */
-        }
+@media (max-width: 300px) {
+    .logo {
+        /* height: 433px; */
+        height: 137.11px;
+        /* width: 975px; */
+        width: 100.67px;
+        padding-top: 50px;
+        /* margin-left: 20px; */
+    }
 
-        .links {
-            flex-direction: column;
-            font-size: 12px;
-            gap: 10px;
-        }
+    .links {
+        flex-direction: column;
+        font-size: 12px;
+        gap: 10px;
+    }
 
-        .links>a:nth-of-type(1) {
-            font-size: 12px;
-            font-weight: 500;
-        }
+    .links>a:nth-of-type(1) {
+        font-size: 12px;
+        font-weight: 550;
+    }
 
-        .links>a:nth-of-type(2) {
-            font-weight: 500;
-        }
+    .links>a:nth-of-type(2) {
+        font-weight: 550;
+    }
 
-        .links>a:hover {
-            font-weight: 600;
-            font-size: 15px;
-        }
+    .links>a:hover {
+        font-weight: 600;
+        font-size: 15px;
+    }
 
-        .links>.active {
-            font-size: 15px;
-            font-weight: 600;
-        }
+    .links>.active {
+        font-size: 15px;
+        font-weight: 600;
+    }
 
-        img {
-            height: 144px;
-            width: 192px;
-        }
+    .portfolio-images {
+        margin-top: 130px;
+    }
 
-        .vertical-image {
-            height: 192px;
-            width: 144px;
-        }
+    img {
+        height: 144px;
+        width: 192px;
+    }
 
-        .footer {
-            font-size: 10px;
-        }
+    .vertical-image {
+        height: 192px;
+        width: 144px;
+    }
 
-        .footer>a {
-            padding-top: 9px;
-        }
+    .footer {
+        font-size: 10px;
+    }
 
-        .fa-github {
-            color: black;
-            font-size: 12px;
-            transition: transform 0.3s ease-in-out;
-        }
+    .footer>a {
+        padding-top: 9px;
+    }
+
+    .fa-github {
+        color: black;
+        font-size: 12px;
+        transition: transform 0.3s ease-in-out;
     }
 }
