@@ -275,6 +275,11 @@ ul {
         list-style: none;
         padding-left: 0;
     }
+
+    .certification-img {
+        width: 204px;
+        height: 204px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -359,6 +364,11 @@ ul {
 
     .license-info>hr {
         width: 200px;
+    }
+
+    .certification-img {
+        width: 136px;
+        height: 136px;
     }
 }
 
