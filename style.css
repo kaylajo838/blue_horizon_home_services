@@ -220,6 +220,11 @@ ul {
     border: 1px solid black;
 }
 
+.certification-img {
+    width: 306px;
+    height: 306px;
+}
+
 /* Footer Styling */
 .footer {
     display: flex;
